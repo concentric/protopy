@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "protopy"
+description = "Scratchpad of python learnings, ideas and prototypes."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
