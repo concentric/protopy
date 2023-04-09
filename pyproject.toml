@@ -8,3 +8,9 @@ description = "Scratchpad of python learnings, ideas and prototypes."
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
+
+[tool-black]
+line-length = 160
+skip-string-normalization = true
+target-version = ['311']
+
